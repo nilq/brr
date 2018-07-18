@@ -4,4 +4,4 @@ from article.viewsets import ArticleViewSet
 
 router = routers.DefaultRouter()
 
-router.register('article', ArticleViewSet)
+router.register(r'article', ArticleViewSet)
